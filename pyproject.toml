@@ -1,0 +1,11 @@
+[project]
+name = "mcp-example"
+version = "0.1.0"
+description = "An MCP server that acts as a proxy to an existing FastAPI server"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.115.8",
+    "fastmcp>=0.4.1",
+    "requests>=2.32.3",
+]
